@@ -21,3 +21,7 @@ The installation is keep to minimum, for initial installation you would just nee
 ![Done, that's it](./installation-03.png)
 
 The installation is just that simple. On later chapter we would look at how we can hook into Laravel event system to customize the first installation for project that requires it.
+
+Now if you try to access <http://patio.app/admin> again, you'll see a login page instead of the installation wizard.
+
+![Login Page](./login.png)
