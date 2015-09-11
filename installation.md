@@ -4,9 +4,6 @@ Getting started with Orchestra Platform 3 is as much identical to getting starte
 
 I would highly recommend watching [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals) and [What's New in Laravel 5.1](https://laracasts.com/series/whats-new-in-laravel-5-1) video series from [Laracasts](https://laracasts.com) in order to get familiar with Laravel 5 to understand some of the approach we use in Orchestra Platform 3.
 
-* [Downloading via Composer](#downloading-via-composer)
-* [Setting up Homestead](#setting-up-homestead)
-
 ## Downloading via Composer
 
 Firstly, run the following command to download Orchestra Platform 3 using Composer:
