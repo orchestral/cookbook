@@ -8,8 +8,4 @@ I would highly recommend watching [Laravel 5 Fundamentals](https://laracasts.com
 
 {% include "./installation/homestead.md" %}
 
-## Installing Orchestra Platform
-
-To start the installation, navigate to <http://patio.app/admin>.
-
-![Check Installation Requirement](/installation/installation-01.png)
+{% include "./installation/orchestra-platform.md %}
