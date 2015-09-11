@@ -16,7 +16,7 @@ Once composer finish installing the dependencies you can navigate the the projec
 
     $ cd patio
 
-To test that everything is working, you may use Laravel Serve command:
+To test that everything is working, you may use the Serve command:
 
     $ php artisan serve
     Laravel development server started on http://localhost:8000/
@@ -27,7 +27,7 @@ Now open <http://localhost:8000> and you should see our splash screen.
 
 ## Setting up Homestead
 
-This process is optional, but I highly recommend doing it for Orchestra Platform as this would give you full access to feature that we can use with Orchestra Platform without messing your local machine, you can read the full documentation from [Laravel Homestead](http://laravel.com/docs/5.1/homestead).
+This process is optional, but I highly recommend doing it for developing Orchestra Platform on your local mashine. Homestead give you full access to feature that we can use with Orchestra Platform. You can read the full documentation from [Laravel Homestead](http://laravel.com/docs/5.1/homestead).
 
 Now, if you haven't use Homestead before, you probably need to add the box:
 
