@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Installation](installation.md)
-   * [Downloading via Composer](installation.md#downloading-via-composer)
+   * [Downloading via Composer](installation/downloading.md)
    * [Setting up Homestead](installation.md#setting-up-homestead)
    * [Installing Orchestra Platform](#installing-orchestra-platform)
 * [Tips and Tricks](tips.md)

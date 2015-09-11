@@ -4,26 +4,7 @@ Getting started with Orchestra Platform 3 is as much identical to getting starte
 
 I would highly recommend watching [Laravel 5 Fundamentals](https://laracasts.com/series/laravel-5-fundamentals) and [What's New in Laravel 5.1](https://laracasts.com/series/whats-new-in-laravel-5-1) video series from [Laracasts](https://laracasts.com) in order to get familiar with Laravel 5 to understand some of the approach we use in Orchestra Platform 3.
 
-## Downloading via Composer
-
-Firstly, run the following command to download Orchestra Platform 3 using Composer:
-
-    $ composer create-project orchestra/platform patio "3.1.x" --prefer-dist
-
-This composer command would create a new project for you on `patio` folder using the latest development build, `--prefer-dist` is another option that you can use to indicate that you want to download a distributed version instead of cloning the repository, otherwise use `--prefer-source`.
-
-Once composer finish installing the dependencies you can navigate the the project directory.
-
-    $ cd patio
-
-To test that everything is working, you may use the Serve command:
-
-    $ php artisan serve
-    Laravel development server started on http://localhost:8000/
-
-Now open <http://localhost:8000> and you should see our splash screen.
-
-![Orchestra Platform Splash Screen](splash-screen.png)
+{% include "./installation/downloading.md" %}
 
 ## Setting up Homestead
 
@@ -32,11 +13,11 @@ This process is optional, but I highly recommend doing it for developing Orchest
 Now, if you haven't use Homestead before, you probably need to add the box:
 
 	vagrant box add laravel/homestead
-	
+
 Once you have it downloaded, let run the following command in your project directory.
 
 	composer require --dev "laravel/homestead=^2.1"
-	
+
 Once composer has installed the dependencies, you can start adding Homestead support for your project by running the following command:
 
     ./vendor/bin/homestead make
@@ -50,13 +31,13 @@ The generated `Homestead.yaml` will generally good enough to get you started, bu
 | Key          | Description
 |:------------|:---------------------
 | ip          | Ensure that `ip` is unique and is not being use by other VM or machine in your intranet.
-| hostname    | You can either use the default or customize it based on your preferences. 
+| hostname    | You can either use the default or customize it based on your preferences.
 | name        | You can either use the default or customize it based on your preferences.
 | sites       | Make sure you map all the possible domain for your application.
 | databases   | Make sure you type in the database name that you want to use for your application.
 
 Here's an example how I configured it on my machine.
- 
+
 ```yaml
 ---
 ip: "192.168.50.10"
@@ -113,4 +94,4 @@ Once you have added the domain to your hosts file, you can access <http://patio.
 
 To start the installation, navigate to <http://patio.app/admin>.
 
-![Check Installation Requirement](installation-01.png)
+![Check Installation Requirement](assets/installation-01.png)
