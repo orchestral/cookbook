@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Installation](installation/README.md)
    * [Downloading Via Composer](installation/downloading.md)
-   * [Setting Up Homestead](installation/homestead.md)
+   * [Homestead](installation/homestead.md)
    * [Installing Orchestra Platform](installation/orchestra-platform.md)
    * [Sync Application Skeleton](installation/sync.md)
 * Tips and Tricks
