@@ -42,3 +42,46 @@ Once composer has installed the dependencies, you can start adding Homestead sup
     ./vendor/bin/homestead make
 
 > This action will create `Vagrantfile` and `Homestead.yaml` on your project root directory.
+
+### Update Homestead.yaml
+
+The generated `Homestead.yaml` will generally good enough to get you started, but let's open it and inspect the following:
+
+| Key          | Description
+|:------------|:---------------------
+| ip          | Ensure that `ip` is unique and is not being use by other VM or machine in your intranet.
+| hostname    | You can either use the default or customize it based on your preferences. 
+| name        | You can either use the default or customize it based on your preferences.
+| sites       | Make sure you map all the possible domain for your application.
+| databases   | Make sure you type in the database name that you want to use for your application.
+ 
+```yaml
+---
+ip: "192.168.50.10"
+memory: 2048
+cpus: 1
+hostname: patio
+name: patio
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: "/Users/crynobone/Sites/patio"
+      to: "/home/vagrant/patio"
+
+sites:
+    - map: patio.app
+      to: "/home/vagrant/patio/public"
+
+databases:
+    - patio
+
+variables:
+    - key: APP_ENV
+      value: local
+```
+
