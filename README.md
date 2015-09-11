@@ -1,6 +1,6 @@
 # Introduction
 
-**Orchestra Platform** provide a solid base off of which to build your new web applications. It's not a CMS. Instead, it's a springboard to build off of with many of the tools you wish you had on projects but never took the time to build.
+**Orchestra Platform** provide a solid base boilerplate to build your new web applications. It's not a CMS. Instead, it's a springboard to build many of the tools you wish you had availables for projects that you're working on but never took the time to build.
 
 Have you had a client that wanted you to create a custom application but at the same time they're also looking to have a robust Content Management System within that same application? If you answered yes, what are your options?
 
