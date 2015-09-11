@@ -12,4 +12,4 @@ Foundation::when('orchestra::*', function (Request $request, Response $response)
 
 `Foundation::when()` would trigger the callback when the request match Orchestra Platform URL routing when `kernel.handled` event is triggered. 
 
-> Do note that the `kernel.handled` is execute after the response is return from Laravel middlewares.
+> Do note that the `kernel.handled` is execute after a response is return from Laravel middleware.
