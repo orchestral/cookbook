@@ -8,6 +8,7 @@ Now, as we all know `--dev` dependency is typically not available when we deploy
 
     $ cd resources/config
     $ mkdir local
+    $ cd local
     $ touch app.php
     
 > This just create a new file at `resources/config/local/app.php`
