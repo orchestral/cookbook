@@ -87,6 +87,16 @@ variables:
       value: local
 ```
 
+### Provision VM
+
 Now we can start provisioning the VM.
 
     vagrant up
+
+### Update the Hosts File
+
+Don't forget to add the "domains" for your Nginx sites to the hosts file on your machine! The hosts file will redirect your requests for the local domains into your Homestead environment. On Mac and Linux, this file is located at `/etc/hosts`. On Windows, it is located at `C:\Windows\System32\drivers\etc\hosts`. The lines you add to this file will look like the following:
+
+    192.168.50.10 patio.app
+
+Once you have added the domain to your hosts file, you can access <http://patio.app> via your web browser!
