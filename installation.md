@@ -111,3 +111,6 @@ Once you have added the domain to your hosts file, you can access <http://patio.
 
 ## Installing Orchestra Platform
 
+To start the installation, navigate to <http://patio.app/admin>.
+
+![Check Installation Requirement](installation-01.png)
