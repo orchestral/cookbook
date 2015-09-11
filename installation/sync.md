@@ -92,3 +92,5 @@ Now, remember `skeleton` branch is an orphan branch. We would need to merge this
 
     $ git checkout master
     $ git merge skeleton
+
+> Again, solve any merge conflict that could happen when merging.
