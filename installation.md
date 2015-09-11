@@ -12,6 +12,16 @@ Firstly, run the following command to download Orchestra Platform 3 using Compos
 
 This composer command would create a new project for you on `patio` folder using the latest development build, `--prefer-dist` is another option that you can use to indicate that you want to download a distributed version instead of cloning the repository, otherwise use `--prefer-source`.
 
+Once composer finish installing the dependencies you can navigate the the project directory.
+
+    $ cd patio
+
+To test that everything is working, you may use Laravel Serve command:
+
+    $ php artisan serve
+    Laravel development server started on http://localhost:8000/
+
+Now open <http://localhost:8000> and 
 ## Setting up Homestead
 
 This process is optional, but I highly recommend doing it for Orchestra Platform as this would give you full access to feature that we can use with Orchestra Platform without messing your local machine, you can read the full documentation from [Laravel Homestead](http://laravel.com/docs/5.1/homestead).
