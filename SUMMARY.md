@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Installation](installation.md)
+* [Installation](installation/README.md)
    * [Downloading via Composer](installation/downloading.md)
    * [Setting up Homestead](installation/homestead.md)
    * [Installing Orchestra Platform](installation/orchestra-platform.md)
