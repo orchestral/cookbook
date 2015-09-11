@@ -9,3 +9,7 @@ Have you had a client that wanted you to create a custom application but at the 
 * Or try to integrate both (which you know would be a bad idea from the start).
  
 Orchestra Platform will solve this problem by creating a similar Administration Panel as you would see in WordPress wp-admin, so you can continue writing awesome code in Laravel but at the same time have CMS components ready at your disposal.
+
+## Contributing
+
+You, the community are more than welcome to contribute anything to this book by forking and submitting Pull Request. The source of this book is available at  <https://github.com/orchestral/cookbook>.
