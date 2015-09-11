@@ -1,4 +1,4 @@
-## Downloading via Composer
+## Downloading Via Composer
 
 Firstly, run the following command to download Orchestra Platform 3 using Composer:
 
