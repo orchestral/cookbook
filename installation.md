@@ -26,3 +26,9 @@ Now, if you haven't use Homestead before, you probably need to add the box:
 Once you have it downloaded, let run the following command in your project directory.
 
 	composer require --dev "laravel/homestead=^2.1"
+	
+Once composer has installed the dependencies, you can start adding Homestead support for your project by running the following command:
+
+    ./vendor/bin/homestead make
+
+> This action will create `Vagrantfile` and `Homestead.yaml` on your project root directory.
