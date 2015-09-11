@@ -21,7 +21,10 @@ To test that everything is working, you may use Laravel Serve command:
     $ php artisan serve
     Laravel development server started on http://localhost:8000/
 
-Now open <http://localhost:8000> and 
+Now open <http://localhost:8000> and you should see our splash screen.
+
+![Orchestra Platform Splash Screen](splash-screen.png)
+
 ## Setting up Homestead
 
 This process is optional, but I highly recommend doing it for Orchestra Platform as this would give you full access to feature that we can use with Orchestra Platform without messing your local machine, you can read the full documentation from [Laravel Homestead](http://laravel.com/docs/5.1/homestead).
