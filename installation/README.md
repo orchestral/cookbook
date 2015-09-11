@@ -8,8 +8,9 @@ I would highly recommend watching [Laravel 5 Fundamentals](https://laracasts.com
 
 To be involved with the code exercise that we going to use in this cookbook please ensure that your local machine have the following requirements:
 
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Vagrant](http://www.vagrantup.com/downloads.html)
+
 * PHP 5.5.9+
 * [Composer](https://getcomposer.org/doc/00-intro.md)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant](http://www.vagrantup.com/downloads.html)
 * [NPM](https://docs.npmjs.com/getting-started/installing-node)
