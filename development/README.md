@@ -25,3 +25,14 @@ return [
     ]),
 ];
 ```
+
+You can now view the available command from `php artisan`:
+
+```
+key
+  make:auth-controller  Create auth boilerplate controllers and views
+  make:contract         Create a new Contract interface
+  make:filter           Create a new Filter class
+  make:menu             Create a new Menu handler class
+  make:validator        Create a new Validator handler class
+```
