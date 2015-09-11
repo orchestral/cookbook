@@ -100,3 +100,6 @@ Don't forget to add the "domains" for your Nginx sites to the hosts file on your
     192.168.50.10 patio.app
 
 Once you have added the domain to your hosts file, you can access <http://patio.app> via your web browser!
+
+## Installing Orchestra Platform
+
