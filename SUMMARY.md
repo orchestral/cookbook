@@ -7,5 +7,5 @@
    * [Installing Orchestra Platform](installation/orchestra-platform.md)
 * [Tips and Tricks](tips.md)
    * [Disable normal user from using the backend](tips.md#disable-normal-user-from-using-the-backend)
-   * Disable normal user from accessing backend
+   * [Disable normal user from accessing backend](tips/disable-user-from-accessing-backend.md)
 
