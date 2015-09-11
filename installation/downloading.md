@@ -17,4 +17,4 @@ To test that everything is working, you may use the Serve command:
 
 Now open <http://localhost:8000> and you should see our splash screen.
 
-![Orchestra Platform Splash Screen](splash-screen.png)
+![Orchestra Platform Splash Screen](/installations/splash-screen.png)
