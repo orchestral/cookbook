@@ -85,7 +85,15 @@ databases:
 variables:
     - key: APP_ENV
       value: local
+    - key: DB_DATABASE
+      value: patio
+    - key: CACHE_DRIVER
+      value: redis
+    - key: SESSION_DRIVER
+      value: redis
 ```
+
+> Also take note changes made under `variables`. This as identical to modifying `.env`.
 
 ### Provision VM
 
