@@ -54,6 +54,8 @@ The generated `Homestead.yaml` will generally good enough to get you started, bu
 | name        | You can either use the default or customize it based on your preferences.
 | sites       | Make sure you map all the possible domain for your application.
 | databases   | Make sure you type in the database name that you want to use for your application.
+
+Here's an example how I configured it on my machine.
  
 ```yaml
 ---
@@ -85,3 +87,6 @@ variables:
       value: local
 ```
 
+Now we can start provisioning the VM.
+
+    vagrant up
