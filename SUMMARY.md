@@ -7,8 +7,8 @@
    * [Installing Orchestra Platform](installation/orchestra-platform.md)
    * [Sync Application Skeleton](installation/sync.md)
 * [Development Environment](development/README.md)
-* Tips and Tricks
-   * [Disable Normal User From Accessing Backend](tips/disable-user-accessing-backend.md)
 * Themes
    * Distributed Themes via Composer
+* Tips and Tricks
+   * [Disable Normal User From Accessing Backend](tips/disable-user-accessing-backend.md)
 
