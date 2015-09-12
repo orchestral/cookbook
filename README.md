@@ -12,7 +12,9 @@ Orchestra Platform will solve this problem by creating a similar Administration 
 
 ## About the Cookbook
 
-This cookbook is aim to help developers to learn and use Orchestra Platform 3.
+This cookbook is aim to help developers to learn and use Orchestra Platform 3. We once try writing in-depth tutorial on Orchestra Platform but feel that it quickly become obsolete once we release new version. 
+
+We're however hoping that by hosting this book via [GitBook](https://gitbook.com) and the source markdown in [GitHub](https://github.com) it would be easier to for us to update this cookbook in the future.
 
 ### Contributing
 
