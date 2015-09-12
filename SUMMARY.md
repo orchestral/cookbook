@@ -8,7 +8,7 @@
    * [Sync Application Skeleton](installation/sync.md)
 * [Development Environment](development/README.md)
 * [Themes](themes/README.md)
-   * Distributed Themes via Composer
+   * [Distributed Themes via Composer](themes/composer.md)
 * Tips and Tricks
    * [Disable Normal User From Accessing Backend](tips/disable-user-accessing-backend.md)
 
