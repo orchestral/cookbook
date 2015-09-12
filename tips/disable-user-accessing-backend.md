@@ -12,7 +12,7 @@ Foundation::when('orchestra::*', function () {
 
 `Foundation::when()` would trigger the callback when the request match Orchestra Platform URL routing when `router.matched` event is triggered. 
 
-You can also modify the response object by type-hinting to `kernel.handled` event, to do so:
+You can also modify the response object by type-hinting to `kernel.handled` event, to do so let's use `Foundation::whenOn()` instead:
 
 ```php
 use Illuminate\Http\Request;
@@ -21,7 +21,6 @@ use Illuminate\Http\Response;
 Foundation::whenOn('orchestra::*', 'kernel.handled', function (Request $req, Response $resp) {
     $resp->headers->set('X-BUILT-WITH', 'Orchestra Platform');
 });
-
 ```
 
 > Do note that the `kernel.handled` is execute after a response is return from Laravel middleware.
