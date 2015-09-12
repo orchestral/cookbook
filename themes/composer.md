@@ -3,8 +3,18 @@
 Wouldn't it be nice if we can install theme as simple as installing new packages (for Laravel etc). 
 
     $ composer require "stackie/adminlte-theme=^0.1"
+    
+This is available for Orchestra Platform, in fact you as the user can install AdminLTE theme for Orchestra Platform using the above command. Once you have done that you can run the following command.
+
+    $ php artisan theme:detect
+    
+And activate the theme via:
+
+    $ php artisan theme:activate backend adminlte
 
 ### Creating a New Theme
+
+In this chapter, we will look at building a simple theme for Orchestra Platform. First let's create a new theme project and make it available for `patio`.
 
 ```
 $ mkdir mini-theme
