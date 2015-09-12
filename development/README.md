@@ -1,6 +1,6 @@
 # Development Environment
 
-Before we start writing any code, let's prepare our installation for developmen by installing [Studio Component](https://github.com/orchestral/studio).
+Before we start writing any code, let's prepare our installation for development by installing [Studio Component](https://github.com/orchestral/studio).
 
     $ composer require --dev "orchestra/studio=~3.1"
     
