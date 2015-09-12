@@ -10,4 +10,5 @@
 * Tips and Tricks
    * [Disable Normal User From Accessing Backend](tips/disable-user-accessing-backend.md)
 * Themes
+   * Distributed Themes via Composer
 
