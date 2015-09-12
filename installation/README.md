@@ -10,6 +10,7 @@ To be involved with the code exercise that we going to use in this cookbook plea
 
 
 * PHP 5.5.9+
+* OpenSSL Support
 * [Composer](https://getcomposer.org/doc/00-intro.md)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](http://www.vagrantup.com/downloads.html)
