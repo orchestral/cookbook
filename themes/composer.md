@@ -17,6 +17,7 @@ This is available for Orchestra Platform, in fact you as the user can install Ad
 And activate the theme via:
 
     $ php artisan theme:activate backend adminlte
+    Theme [Admin LTE] activated on group [backend].
 
 ### Creating a New Theme
 
