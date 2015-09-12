@@ -7,6 +7,12 @@ Wouldn't it be nice if we can install theme as simple as installing new packages
 This is available for Orchestra Platform, in fact you as the user can install AdminLTE theme for Orchestra Platform using the above command. Once you have done that you can run the following command.
 
     $ php artisan theme:detect
+    +----------+------------+----------+---------+
+    | ID       | Theme Name | Frontend | Backend |
+    +----------+------------+----------+---------+
+    | adminlte | Admin LTE  |    ✗     |         |
+    | default  | Default    |    ✓     |    ✓    |
+    +----------+------------+----------+---------+
     
 And activate the theme via:
 
