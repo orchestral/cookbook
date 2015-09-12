@@ -64,4 +64,4 @@ Would you like to define your dev dependencies (require-dev) interactively [yes]
 Do you confirm generation [yes]? yes
 ```
 
-To enable Composer to know that this package should be installed as Orchestra Platform theme you need to add `"type": "orchestra-theme"` and include the [Theme Installer Plugin](https://github.com/orchestral/theme-installer).
+To allow Composer to know that this package should be installed as Orchestra Platform theme you need to add `"type": "orchestra-theme"` and include the [Theme Installer Plugin](https://github.com/orchestral/theme-installer).
