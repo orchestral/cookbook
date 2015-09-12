@@ -11,7 +11,7 @@ Now, as we all know `--dev` dependency is typically not available when we deploy
     $ cd local
     $ touch app.php
     
-> This just create a new file at `resources/config/local/app.php`
+> This would just create a new file at `resources/config/local/app.php`
 
 Now let's add the service provider:
 
