@@ -29,6 +29,7 @@ $ cd mini-theme
 ```
 
 Once we're inside the folder, you can easily use `composer init` to start building the theme's `composer.json` file.
+
 ```
 $ composer init
 
