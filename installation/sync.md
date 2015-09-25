@@ -2,9 +2,9 @@
 
 > Disclaimer: This is an advanced method to keep your application up to date with upstream. However you can skip this part if you not to familiar with Git or merging conflict.
 
-Many time keeping the application skeleton up to date with [orchestra/platform](https://github.com/orchestral/platform) is such a PITA, I would recommend doing the following if you're using GIT as your source control.
+Most of the time, keeping the application skeleton up to date with [orchestra/platform](https://github.com/orchestral/platform) is such a PITA. I would recommend doing the following if you're using GIT as your source control.
 
-First, if you already commit added "patio" project to Git, you need to create an orphan branch so we can have a clean branch that we stage merging updates from `orchestra/platform` when we fetch updates.
+First, if you already commit added your project to Git, you need to create an orphan branch so we can have a clean branch that we stage merging updates from `orchestra/platform` when we fetch updates.
 
     $ git checkout --orphan skeleton
     
@@ -16,7 +16,7 @@ Now, let's add `orchestra/platform` as a remote.
 
     $ git remote add orchestra git@github.com:orchestral/platform.git
     
-Before fetching remotes, we should disable fetching tags. You can set this permanently per project via:
+Before fetching the remote, we should disable fetching tags. You can set this permanently per project via:
 
     $ git config remote.orchestra.tagopt --no-tags
     
